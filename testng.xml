@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Automation Test Suite" parallel="tests" thread-count="2">
+	<parameter name="environment" value="test" />
+	
+	<!-- Android Test - App Launch -->
+	<test name="Android - App Launch">
+		<parameter name="browser" value="android" />
+		<classes>
+			<class name="com.mobileautomation.Tests.SampleTests.SampleAppLaunchTest" />
+		</classes>
+	</test>
+	
+	<!-- iOS Test - App Launch -->
+	<test name="iOS - App Launch">
+		<parameter name="browser" value="ios" />
+		<classes>
+			<class name="com.mobileautomation.Tests.SampleTests.SampleAppLaunchTest" />
+		</classes>
+	</test>
+	
+	<!-- Android Test - Login -->
+	<test name="Android - Login">
+		<parameter name="browser" value="android" />
+		<parameter name="username" value="" />
+		<parameter name="password" value="" />
+		<classes>
+			<class name="com.mobileautomation.Tests.SampleTests.SampleLoginTest" />
+		</classes>
+	</test>
+	
+	<!-- iOS Test - Login -->
+	<test name="iOS - Login">
+		<parameter name="browser" value="ios" />
+		<parameter name="username" value="" />
+		<parameter name="password" value="" />
+		<classes>
+			<class name="com.mobileautomation.Tests.SampleTests.SampleLoginTest" />
+		</classes>
+	</test>
+</suite>

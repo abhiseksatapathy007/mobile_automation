@@ -1,0 +1,47 @@
+# Compiled class files
+*.class
+target/
+
+# Log files
+*.log
+
+# Test reports
+HTMLReport/
+test-output/
+target/surefire-reports/
+
+# Icon and image files
+*.png
+*.svg
+*.ico
+*.jpg
+*.jpeg
+*.gif
+!**/README.md
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# App files (add your app files here)
+apps/*.apk
+apps/*.app
+apps/*.ipa
+
+# Environment specific files
+src/main/resources/*.properties
+!src/main/resources/test.properties.example
+!src/main/resources/browserstack.properties.example
+
+# Temporary files
+*.tmp
+*.bak
+

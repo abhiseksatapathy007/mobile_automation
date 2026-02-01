@@ -1,0 +1,11 @@
+# BrowserStack Configuration Example
+# Copy this file to browserstack.properties and update with your BrowserStack credentials
+
+browserstack.userName=YOUR_BROWSERSTACK_USERNAME
+browserstack.accessKey=YOUR_BROWSERSTACK_ACCESS_KEY
+browserstack.url=https://hub.browserstack.com/wd/hub
+browserstack.app=bs://YOUR_APP_ID
+browserstack.buildName=Mobile-Automation-Build
+browserstack.projectName=Mobile Automation Framework
+browserstack.local=false
+

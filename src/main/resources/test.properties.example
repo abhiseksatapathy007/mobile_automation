@@ -1,0 +1,6 @@
+# Test Environment Configuration Example
+# Copy this file to test.properties and update with your values
+
+username=your_username
+password=your_password
+
